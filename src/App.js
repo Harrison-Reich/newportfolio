@@ -1,3 +1,4 @@
+// css
 import './App.css';
 
 // Components
@@ -10,11 +11,11 @@ import Footer from './components/Footer'
 function App() {
   return (
     <>
-    <Header />
-    <About />
-    <Portfolio />
-    <Contact />
-    <Footer />
+      <Header />
+      <About />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </>
   );
 }
