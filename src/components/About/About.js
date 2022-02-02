@@ -39,10 +39,14 @@ const About = () => {
                   </Box>
                 </Item>
               </Grid>
-              <Grid item xs={6}>
+              <Grid container
+                direction="row"
+                justifyContent="center"
+                alignItems="center"
+                item xs={6}>
                 <Item>
-                  <Typography fontFamily="" color="white" gutterBottom variant='h5' align="left">
-                    Hello! My name is Harrison Reich and welcome to my portfolio website! I am a UCI Bootcamp student learning how to become a Full Stack Web Developer! I have a background in graphic design and aim to make eye catching, easy to use websites! Take a look at some of my work in the Projects section below. If you have any questions, please contact me using the form at the bottom!
+                  <Typography fontFamily="" color="white" gutterBottom variant='h4' align="left" >
+                    Hello, my name is Harrison Reich and welcome to my portfolio website! I am a UCI Bootcamp student learning how to become a Full Stack Web Developer. I have a background in graphic design and aim to make eye catching websites. Take a look at some of my work in the Projects section.
                   </Typography>
                 </Item>
               </Grid>
