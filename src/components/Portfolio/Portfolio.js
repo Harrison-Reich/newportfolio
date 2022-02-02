@@ -28,7 +28,7 @@ const portfolio = () => {
           container mt="1px"
           spacing={2}
           direction="row"
-          justify="center"
+          justifyContent="center"
           alignItems="center">
           <Grid item xs={4} justifyContent='center' alignItems='center'>
             <Item>

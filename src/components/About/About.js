@@ -15,7 +15,7 @@ const About = () => {
         <Container>
           <Box marginTop={27}>
             <Typography fontFamily="-apple-system" color="white" gutterBottom variant='h1' align="center">
-              Harrison R. Reich's
+              Harrison Reich's
             </Typography>
             <Typography fontFamily="-apple-system" color="white" gutterBottom variant='h3' align="center">
               Portfolio Website
