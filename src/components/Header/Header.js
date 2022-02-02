@@ -92,7 +92,7 @@ const Header = () => {
           </Box>
           <Box sx={{ flexGrow: 0 }}>
             <Menu
-              sx={{ mt: '45px' }}
+              sx={{ mt: '40px' }}
               id="menu-appbar"
               anchorEl={anchorElUser}
               anchorOrigin={{
