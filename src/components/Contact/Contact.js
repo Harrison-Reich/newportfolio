@@ -27,7 +27,7 @@ const contact = () => {
               Fill out the contact card below to get in touch about work or a project!
             </Typography>
             <Typography align="center" variant='body2' color='textSecondary' component='p' gutterBottom>
-              You can also find my contact information on LinkedIn/Github
+              You can also contact me on LinkedIn and Github
             </Typography>
             <form>
               <Grid container spacing={1}>
