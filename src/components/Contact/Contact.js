@@ -12,10 +12,10 @@ const contact = () => {
       <Grid>
         <Card style={{ maxWidth: 450, margin: '0 auto' }}>
           <CardContent>
-            <Typography gutterBottom variant='h5'>
+            <Typography align="center" gutterBottom variant='h5'>
               Contact Me!
             </Typography>
-            <Typography variant='body2' color='textSecondary' component='p' gutterBottom>
+            <Typography align="center" variant='body2' color='textSecondary' component='p' gutterBottom>
               You can also find my contact information on LinkedIn/Github
             </Typography>
             <form>
