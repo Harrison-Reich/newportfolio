@@ -5,7 +5,7 @@ const AppFooter = (props) => {
   let footerStyle = {
     display: "grid",
     gridTemplateColumns: "repeat(3, 1fr)",
-    marginTop: "37em",
+    marginTop: "3em",
     bgcolor: "primary.main",
     color: "white",
     width: "100%",
