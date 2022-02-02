@@ -6,10 +6,7 @@ import Box from '@mui/material/Grid';
 const About = () => {
   return (
     <>
-    <Grid>
-      <Box>
-      </Box>
-    </Grid>
+    
     </>
   );
 }

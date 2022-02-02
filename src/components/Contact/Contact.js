@@ -10,7 +10,7 @@ const contact = () => {
   return (
     <>
       <Grid>
-        <Card style={{ maxWidth: 450, padding: '20px 5px', margin: '0 auto' }}>
+        <Card style={{ maxWidth: 450, margin: '0 auto' }}>
           <CardContent>
             <Typography gutterBottom variant='h5'>
               Contact Me!
@@ -36,7 +36,7 @@ const contact = () => {
                   <TextField label='Message' multiline rows={4} placeholder='Type your message here' variant='outlined' fullWidth required />
                 </Grid>
                 <Grid item xs={12}>
-                  <Button type='submit' variant='contained' color='primary' fullWidth>Submit</Button>
+                  <Button type='submit' variant='contained' color='primary' fullWidth>Send Message</Button>
                 </Grid>
               </Grid>
             </form>
