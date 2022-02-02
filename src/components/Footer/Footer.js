@@ -3,10 +3,8 @@ import Box from "@mui/material/Box"
 const AppFooter = (props) => {
   let footerStyle = {
     display: "grid",
-    gridTemplateColumns: "repeat(2, 1fr)",
-    borderTop: "1px solid #AAA",
-    borderBottom: "1px solid #AAA",
-    marginTop: "35em",
+    gridTemplateColumns: "repeat(3, 1fr)",
+    marginTop: "36em",
     bgcolor: "primary.main",
     color: "white",
     width: "100%",
@@ -16,8 +14,8 @@ const AppFooter = (props) => {
     <Box sx={footerStyle}>
       <div>&nbsp;</div>
       <div>
-        <strong textalign="center">Harrison Reich</strong><br />
-        <strong textalign="center">React Portfolio</strong>
+        <strong textAlign="center">Harrison Reich</strong><br />
+        <strong textAlign="center">React Portfolio</strong>
       </div>
     </Box>
   )
