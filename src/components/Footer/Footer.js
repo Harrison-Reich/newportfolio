@@ -1,4 +1,5 @@
 import Box from "@mui/material/Box"
+import Typography from '@mui/material/Typography';
 
 const AppFooter = (props) => {
   let footerStyle = {
@@ -14,8 +15,8 @@ const AppFooter = (props) => {
     <Box sx={footerStyle}>
       <div>&nbsp;</div>
       <div>
-        <strong textAlign="center">Harrison Reich</strong><br />
-        <strong textAlign="center">React Portfolio</strong>
+        <Typography variant="subtitle1" align="center">Harrison Reich React Portfolio</Typography>
+        <Typography variant="subtitle2" align="center">UCI 2022</Typography>
       </div>
     </Box>
   )
