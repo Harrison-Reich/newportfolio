@@ -11,7 +11,7 @@
 
 
   ## Description
-  This is my most updated portfolio created using REACT
+  This is my most updated portfolio created using REACT. It incorporates Material UI, a styling library and uses content that I have made throughout my time in the UCI course.
 
 
   ## Questions
