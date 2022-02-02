@@ -10,10 +10,10 @@ const contact = () => {
   return (
     <>
       <Grid>
-        <Card style={{ maxWidth: 450, margin: '0 auto' }}>
+        <Card style={{ maxWidth: 1000, margin: '0 auto' }}>
           <CardContent>
             <Typography align="center" gutterBottom variant='h5'>
-              Contact Me!
+              Please fill out the contact card below to get in touch about work or a project!
             </Typography>
             <Typography align="center" variant='body2' color='textSecondary' component='p' gutterBottom>
               You can also find my contact information on LinkedIn/Github
