@@ -5,7 +5,7 @@ const AppFooter = (props) => {
   let footerStyle = {
     display: "grid",
     gridTemplateColumns: "repeat(3, 1fr)",
-    marginTop: "36em",
+    marginTop: "37em",
     bgcolor: "primary.main",
     color: "white",
     width: "100%",
@@ -15,8 +15,7 @@ const AppFooter = (props) => {
     <Box sx={footerStyle}>
       <div>&nbsp;</div>
       <div>
-        <Typography variant="subtitle1" align="center">Harrison Reich React Portfolio</Typography>
-        <Typography variant="subtitle2" align="center">UCI 2022</Typography>
+        <Typography variant="subtitle1" align="center">Harrison Reich React Portfolio 2022</Typography>
       </div>
     </Box>
   )
