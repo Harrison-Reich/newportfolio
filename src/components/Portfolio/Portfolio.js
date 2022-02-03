@@ -29,8 +29,8 @@ const portfolio = () => {
         direction="row"
         justifyContent="center"
         alignItems="center">
-        <Grid item xs={4} justifyContent='center' alignItems='center'>
-          <Item xs={4} justifyContent='center' alignItems='center'>
+        <Grid item xs={12} md={4} justifyContent='center' alignItems='center'>
+          <Item xs={12} justifyContent='center' alignItems='center'>
             <Card>
               <CardMedia
                 component="img"
@@ -53,8 +53,8 @@ const portfolio = () => {
             </Card>
           </Item>
         </Grid>
-        <Grid item xs={4} justifyContent='center' alignItems='center'>
-          <Item xs={4} justifyContent='center' alignItems='center'>
+        <Grid item xs={12} md={4} justifyContent='center' alignItems='center'>
+          <Item xs={12} justifyContent='center' alignItems='center'>
             <Card>
               <CardMedia
                 component="img"
@@ -77,8 +77,8 @@ const portfolio = () => {
             </Card>
           </Item>
         </Grid>
-        <Grid item xs={4} justifyContent='center' alignItems='center'>
-          <Item xs={4} justifyContent='center' alignItems='center'>
+        <Grid item xs={12} md={4} justifyContent='center' alignItems='center'>
+          <Item xs={12} justifyContent='center' alignItems='center'>
             <Card>
               <CardMedia
                 component="img"
