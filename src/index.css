@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://media4.giphy.com/media/l3q2RgN7WUjeUUXm0/giphy.gif?cid=ecf05e47ivplpaodcgbyq8as3tjg43ykdvq1mcx6kwlaojm5&rid=giphy.gif&ct=g');
+  background-image: "../Assets";
   background-size: cover;
   height: 100vh;
   padding: 0;
