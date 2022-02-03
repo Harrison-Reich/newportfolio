@@ -83,7 +83,7 @@ const portfolio = () => {
               <CardMedia
                 component="img"
                 height="300"
-                image="https://i.redd.it/6ewt085xd7131.jpg"
+                image="https://user-images.githubusercontent.com/93016157/152266213-22999783-dc19-4377-953f-e32fb87b0b3e.png"
                 alt="Team Member Pic"
               />
               <CardContent>
