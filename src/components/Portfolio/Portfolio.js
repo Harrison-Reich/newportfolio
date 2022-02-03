@@ -96,7 +96,7 @@ const portfolio = () => {
               </CardContent>
               <CardActions>
                 <Button href='https://github.com/Harrison-Reich/console.log' size="small">Github Repository</Button>
-                <Button href='https://smartbartering.herokuapp.com/login.html' size="small">Live App</Button>
+                <Button href='https://consolelog-proj3.herokuapp.com/' size="small">Live App</Button>
               </CardActions>
             </Card>
           </Item>
