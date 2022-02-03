@@ -72,7 +72,7 @@ const portfolio = () => {
               </CardContent>
               <CardActions>
                 <Button href='https://github.com/Harrison-Reich/smarterBarter/tree/main' size="small">Github Repository</Button>
-                <Button href='https://github.com/Harrison-Reich' size="small">Live App</Button>
+                <Button href='https://smartbartering.herokuapp.com/login.html' size="small">Live App</Button>
               </CardActions>
             </Card>
           </Item>
