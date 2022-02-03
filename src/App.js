@@ -1,6 +1,3 @@
-// css
-import './App.css';
-
 // Components
 import About from './components/About'
 import Contact from './components/Contact'
