@@ -39,11 +39,18 @@ const Header = () => {
   //   event.preventDefault()
   //   navigate('/contact')
   // }
-  
+
   return (
-    <AppBar color="transparent" position="static">
-      <Container maxWidth="xl">
+    <AppBar color="primary" position="static">
+      <Container maxWidth="100vw">
         <Toolbar disableGutters>
+          <Typography
+            variant='h6'
+            noWrap
+            component='div'
+            sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}>
+            Harrison Reich
+          </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -79,6 +86,7 @@ const Header = () => {
             </Menu>
           </Box>
           <Typography
+            color="white"
             variant="h6"
             noWrap
             component="div"
