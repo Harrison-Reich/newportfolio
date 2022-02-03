@@ -15,7 +15,7 @@ const AppFooter = (props) => {
     <Box sx={footerStyle}>
       <div>&nbsp;</div>
       <div>
-        <Typography variant="subtitle1" align="center">Created with REACT.JS || Styled with Material UI</Typography>
+        <Typography variant="subtitle1" align="center">Harrison Reich's Portfolio Website</Typography>
       </div>
     </Box>
   )
