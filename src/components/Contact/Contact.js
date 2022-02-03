@@ -13,7 +13,7 @@ const contact = () => {
     <>
       <Grid>
         <Container>
-          <Box marginTop={25}>
+          <Box marginTop={5}>
             <Typography fontFamily="-apple-system" color="white" gutterBottom variant='h2' align="left">
               Contact
             </Typography>
