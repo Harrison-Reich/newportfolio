@@ -1,3 +1,4 @@
+import { useState, useContext } from 'react';
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -9,6 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+// import { useNavigate } from 'react-router-dom'
 
 const pages = ['About', 'Projects', 'Contact'];
 
@@ -23,18 +25,25 @@ const Header = () => {
     setAnchorElNav(null);
   };
 
+  // const handleAboutClick = (event) => {
+  //   event.preventDefault()
+  //   navigate('/')
+  // }
 
+  // const handleProjectsClick = (event) => {
+  //   event.preventDefault()
+  //   navigate('/about')
+  // }
+
+  // const handleContactClick = (event) => {
+  //   event.preventDefault()
+  //   navigate('/contact')
+  // }
+  
   return (
-    <AppBar position="static">
+    <AppBar color="transparent" position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}>
-            Harrison Reich
-          </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
