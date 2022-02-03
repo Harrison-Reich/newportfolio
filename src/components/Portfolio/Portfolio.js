@@ -28,14 +28,13 @@ const portfolio = () => {
         spacing={2}
         direction="row"
         justifyContent="center"
-        alignItems="center"
-        style={{ minHeight: "100vh" }}>
+        alignItems="center">
         <Grid item xs={4} justifyContent='center' alignItems='center'>
           <Item xs={4} justifyContent='center' alignItems='center'>
             <Card>
               <CardMedia
                 component="img"
-                height="200"
+                height="300"
                 image="https://user-images.githubusercontent.com/93016157/144180815-ed7b2f82-88bb-4c49-85c9-5bc75bf7c9cf.png"
                 alt="Team Member Pic"
               />
@@ -59,7 +58,7 @@ const portfolio = () => {
             <Card>
               <CardMedia
                 component="img"
-                height="200"
+                height="300"
                 image="https://user-images.githubusercontent.com/88170746/148446402-1f6f68b0-2773-446c-a4a8-7a6ca74e6cbe.png"
                 alt="Team Member Pic"
               />
@@ -83,7 +82,7 @@ const portfolio = () => {
             <Card>
               <CardMedia
                 component="img"
-                height="200"
+                height="300"
                 image="https://i.redd.it/6ewt085xd7131.jpg"
                 alt="Team Member Pic"
               />
